@@ -1,5 +1,5 @@
 {% set name = "sb3-contrib" %}
-{% set version = "2.6.0" %}
+{% set version = "2.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sb3_contrib-{{ version }}.tar.gz
-  sha256: eaf7f3268706ee878140decfc743b58e96182e73b5c14872e1c7017ca31e465f
+  sha256: 491070fb14c6a59757cbcc1aea5c62c894c2312f3f8a1ccf8f363a48eb3126ad
 
 build:
   noarch: python
